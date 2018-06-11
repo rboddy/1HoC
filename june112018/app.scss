@@ -1,0 +1,46 @@
+$font: 'Roboto', sans-serif;
+
+body {
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: $font;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    div {
+        // background-color: white;
+        width: 100%;
+        height: 100px;
+
+        img {
+            width: auto;
+            height: 90%;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+.child1 {
+    background-color: #F45D5D;
+}
+.child2 {
+    background-color: #EB9A07;
+}
+.child3 {
+    background-color: #FCFC01;
+}
+.child4 {
+    background-color: #20B523;
+}
+.child5 {
+    background-color: #5D5DF9;
+}
+.child6 {
+    background-color: #63129E;
+}

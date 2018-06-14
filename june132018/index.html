@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1HoC 3</title>
+    <link href="app.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script> 
+    <script src="app.js"></script>   
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+    <h1>1 HoC 3</h1>
+
+    <h2>The One I Procrastinated</h2>
+    
+    <p>Yeah, so I put off the 3rd 1HoC. I got some time to myself today while my wife went to work a 12 hour shift and I wanted to play video games but I had small group from 7-9:30. So I've been playing Destiny 2. Sue me. I'm going to start working on a more serious codebase for the next few 1HoCs. I'm thinking since I like D2 so much I will use their API and a noSQL DB to make a leaderboard for my clan. Submit your gamertag and your stats for your PvP rank gets put on the board. Very cool stuff. So I'm going to start with how I want this to look, and odds are be reading some API docs. Don't expect a ton of code today.</p>
+
+    <div id="leaderBoard">
+        <div class="boardContainer">
+
+            <div class="rank">{{ rank1 }}</div>
+            <div class="cell1">{{ gamerTag1 }}</div>
+            <div class="cell2">{{ glory1 }}</div>
+
+
+
+            <div class="rank">{{ rank2 }}</div>
+            <div class="cell1">{{ gamerTag2 }}</div>
+            <div class="cell2">{{ glory2 }}</div>
+
+        </div>
+    </div>
+
+    <p>I'm thinking of using grid again, and maybe making it a bit more of feature rich grid. I will dynamically generate the grid by binding each row to data that I pull from the API, based on an array of gamertags that I'm storing in a database after they get submited. Hopefully it's that simple.</p>
+
+    <p>Okay so I like what I have above. It's clean and simple. My new motto for design is KISS: Keep it simple stupid. I try so hard to make my designs eye catching that I lose site of user experience. I may add some column labels but other than that, this is perfect. I tried to use the red, grey, and white color scheme from crucible as well. Now it's time to start reading the API docs for Destiny's API to figure out how I'm going to get the info I need for these cells.</p>
+
+    <p>I also forgot to mention that I'm thinking about using vue.js for this project, so I'm going to write some quick JS to make a basic Vue instance real quick and then I'll read the D2API docs.</p>
+
+</body>
+</html>

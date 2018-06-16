@@ -1,0 +1,42 @@
+//I store my fonts as vars because I'm lazy
+$font1: "Roboto", sans-serif;
+
+body {
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: $font1;
+}
+
+.boardContainer {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr);
+
+    div {
+        height: 60px;
+        border-bottom: 1px solid black;
+        text-align: center;
+        line-height: 60px;
+    }
+}
+
+.rank {
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: bold;
+}
+
+.cell1 {
+    background-color: #EF3131;
+}
+.cell2 {
+    background-color: #565656;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    body {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }

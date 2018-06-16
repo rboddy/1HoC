@@ -1,5 +1,7 @@
 //I store my fonts as vars because I'm lazy
 $font1: "Roboto", sans-serif;
+$redColor: #EF3131;;
+$greyColor: #565656;;
 
 body {
     background-color: black;
@@ -21,6 +23,14 @@ body {
     }
 }
 
+a {
+    text-decoration: none;
+    color: $redColor;
+}
+a:hover {
+    color: white;
+}
+
 .rank {
     background-color: #FFFFFF;
     color: black;
@@ -28,10 +38,10 @@ body {
 }
 
 .cell1 {
-    background-color: #EF3131;
+    background-color: $redColor
 }
 .cell2 {
-    background-color: #565656;
+    background-color: $greyColor;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {

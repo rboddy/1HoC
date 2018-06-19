@@ -1,11 +1,5 @@
-const calc = require('./calc')
+// index.js
+const _ = require('lodash')
 
-const numbersToAdd = [
-  3,
-  4,
-  10,
-  2
-]
-
-const result = calc.sum(numbersToAdd)
-console.log(`The result is: ${result}`)
+_.assign({ 'a': 1 }, { 'b': 2 }, { 'c': 3 });
+// → { 'a': 1, 'b': 2, 'c': 3 }

@@ -8,5 +8,11 @@
     "start": "node index.js"
   },
   "author": "Ryan Boddy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }

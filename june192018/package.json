@@ -1,0 +1,18 @@
+{
+  "name": "leaderboardproject",
+  "version": "1.0.0",
+  "description": "The DRP fam crucible leaderboard project that I've been working on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ryan Boddy",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

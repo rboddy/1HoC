@@ -22,3 +22,8 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 //telling the app where views lives? Idk this section doesn't make sense.
 app.set('views', path.join(__dirname, 'views'))
+app.get('/', (request, response) => {
+    response.render('home', {
+      name: 'John'
+    })
+  })

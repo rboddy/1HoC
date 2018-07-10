@@ -45,3 +45,5 @@ app.get('/', (request, response) => {
       name: 'John'
     })
   })
+
+//Okay so this isn't really working the way I wanted it to, but this is the first tutorial from node hero that I didn't really find easy to follow. Let's see what they're database section looks like real quick before I revisit this mess

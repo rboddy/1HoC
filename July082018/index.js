@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, 'views'))
  
 app.get('/', (request, response) => {
   response.render('home', {
-    name: 'John'
+    name: 'Ryan'
   })
 })
  

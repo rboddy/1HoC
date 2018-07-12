@@ -19,6 +19,19 @@ body h1 {
 
 .navBar .logo {
   background-color: #3b8898;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.navBar .logo a {
+  text-decoration: none;
+  color: white;
+  line-height: 65px;
+}
+
+.navBar .logo a:hover {
+  color: black;
 }
 
 .navBar .navList ul li {
@@ -33,11 +46,28 @@ body h1 {
   font-size: 20px;
 }
 
+.navBar .navList ul a:hover {
+  color: black;
+}
+
 .homeContent {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
   padding: 5%;
+}
+
+.homeContent .boxRight p {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 75%;
+}
+
+.homeContent .boxRight h1 {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
 }
 /*# sourceMappingURL=main.css.map */

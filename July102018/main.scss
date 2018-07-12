@@ -1,0 +1,21 @@
+$color1: #3B5998;
+
+body {
+    margin: 0;
+}
+
+.navBar {
+    background-color: $color1;
+    width: 100%;
+    height: 70px;
+
+    ul > li {
+        display: inline;
+        padding-left: 10px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

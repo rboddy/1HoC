@@ -12,7 +12,7 @@ body h1 {
   display: grid;
   -ms-grid-columns: 1fr 3fr 2fr;
       grid-template-columns: 1fr 3fr 2fr;
-  background-color: #3B5998;
+  background-color: #4b3b98;
   width: 100%;
   height: 70px;
 }
@@ -50,7 +50,7 @@ body h1 {
   color: black;
 }
 
-.homeContent {
+.homeGrid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
@@ -58,16 +58,45 @@ body h1 {
   padding: 5%;
 }
 
-.homeContent .boxRight p {
+.homeGrid .boxRight p {
   margin: 0 auto;
   margin-top: 20px;
   font-size: 20px;
   width: 75%;
 }
 
-.homeContent .boxRight h1 {
+.homeGrid .boxRight h1 {
   margin: 0 auto;
   margin-top: 50px;
   width: 75%;
+}
+
+.boxBottom {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.boxBottom a {
+  color: black;
+}
+
+.boxBottom a:hover {
+  color: #4b3b98;
+}
+
+.socialList {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.socialList li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.socialList li img:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

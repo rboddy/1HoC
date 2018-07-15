@@ -1,0 +1,31 @@
+
+$color1: #4b3b98;
+$color2: #3b8898;
+$color3: #3B5998;
+
+.aboutHeader {
+    margin-left: 10%;
+}
+
+.aboutContent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80%;
+    margin: 0 auto;
+
+    a {
+        color: black;
+    }
+    a:hover {
+        color: $color1;
+        font-size: 20px;
+    }
+}
+
+.aboutBoxRight {
+    padding-left: 50px;
+
+    p{
+        font-size: 18px;
+    }
+}

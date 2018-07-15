@@ -78,6 +78,45 @@
   font-size: 18px;
 }
 
+.blogTopBox {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blogGrid {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.blogSection1, .blogSection2, .blogSection3, .blogSection4 {
+  height: 200px;
+}
+
+.blogSection1 {
+  background-color: #4b3b98;
+}
+
+.blogSection2 {
+  background-color: #3b8898;
+}
+
+.blogSection3 {
+  background-color: #3B5998;
+}
+
+.blogSection4 {
+  background-color: #8E8E8E;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;

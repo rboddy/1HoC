@@ -1,0 +1,36 @@
+$color1: #4b3b98;
+$color2: #3b8898;
+$color3: #3B5998;
+$color4: #8E8E8E;
+
+.blogTopBox {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blogGrid {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.blogSection1, .blogSection2, .blogSection3, .blogSection4 {
+    height: 200px;
+}
+.blogSection1 {
+    background-color: $color1;
+}
+.blogSection2 {
+    background-color: $color2;
+}
+.blogSection3 {
+    background-color: $color3;
+}
+.blogSection4 {
+    background-color: $color4;
+}

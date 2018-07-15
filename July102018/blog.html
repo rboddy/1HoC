@@ -5,27 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navBar">
+        <div class="logo">
+            <a href="index.html">RyanBoddy.net</a>
+        </div>
+        <div class="space"></div>
+        <div class="navList">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <h1>Blog</h1>
-
-    <P>Welcome to my blog! Occasionally I write down my thoughts or ramblings and I put them here. Thanks for reading!</P>
+    <div class="blogTopBox">
+        <h1>Blog</h1>
+        
+        <P>Welcome to my blog! Occasionally I write down my thoughts or ramblings and I put them here. Thanks for reading!</P>
+    </div>
 
     <!-- Not much is going to go here yet because I need to write the JavaScript to fetch the posts from the WPAPI -->
 
     <div class="blogGrid">
 
-        <div class="blogSection1">Life Style</div>
+        <div class="blogSection1">Lifestyle</div>
         <div class="blogSection2">Software</div>
         <div class="blogSection3">Nerd Stuff</div>
         <div class="blogSection4">Archive</div>

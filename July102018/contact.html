@@ -5,32 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navBar">
+        <div class="logo">
+            <a href="index.html">RyanBoddy.net</a>
+        </div>
+        <div class="space"></div>
+        <div class="navList">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <h1>Contact Me</h1>
-    <p>I'm available for any form of communication. Whether you have a question about one of my projects, want to collaborate on something, want to hire me, or anything else, feel free to reach out.</p>
+    <div class="contactContent">
+        <h1>Contact Me</h1>
+        <p>I'm available for any form of communication. Whether you have a question about one of my projects, want to collaborate on something, want to hire me, or anything else, feel free to reach out.</p>
+        
+        <button>Tweet Me</button>
+        <button>Connect on LinkedIn</button>
     
-    <button>Tweet Me</button>
-    <button>Connect on LinkedIn</button>
-    <button>Message Me</button>
-
-    
-    <div id="contactForm">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Subject">
-        <br>
-        <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter message here."></textarea>
+        
+        <div id="contactForm">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter message here."></textarea>
+            <button>Message Me</button>
+        </div>
     </div>
 </body>
 </html>

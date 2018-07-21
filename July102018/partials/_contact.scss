@@ -1,0 +1,23 @@
+.contactContent {
+    width: 80%;
+    margin: 0 auto;
+
+    button {
+        width: 200px;
+        height: 70px;
+        border: none;
+        background-color: grey;
+        color: white;
+        margin: 5px;
+    }
+    button:hover {
+        background-color: darkgray;
+        cursor: pointer;
+    }
+}
+
+#contactForm {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+    grid-gap: 10px;
+}

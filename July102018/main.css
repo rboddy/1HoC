@@ -108,6 +108,20 @@
   font-size: 18px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .aboutContent {
+    display: block;
+  }
+  .aboutBoxLeft img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .aboutBoxRight {
+    padding-left: 0px;
+  }
+}
+
 .blogTopBox {
   width: 80%;
   margin: 0 auto;
@@ -156,6 +170,19 @@
 .iconCredit {
   width: 50%;
   margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .blogGrid {
+    display: block;
+  }
+  .sectionTitle {
+    padding-top: 10px;
+  }
+  .iconCredit {
+    width: 80%;
+    text-align: center;
+  }
 }
 
 .contactContent {

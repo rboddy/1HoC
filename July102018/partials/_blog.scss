@@ -21,6 +21,7 @@ $color4: #8E8E8E;
 
 .blogSection1, .blogSection2, .blogSection3, .blogSection4 {
     height: 200px;
+    text-align: center;
 }
 .blogSection1 {
     background-color: $color1;
@@ -33,4 +34,12 @@ $color4: #8E8E8E;
 }
 .blogSection4 {
     background-color: $color4;
+}
+.sectionTitle {
+    color: white;
+    font-size: 20px;
+}
+.iconCredit {
+    width: 50%;
+    margin: 0 auto;
 }

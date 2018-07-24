@@ -31,10 +31,11 @@ $color3: #3B5998;
         font-size: 20px;
     
         a {
-            color: black;
+            color: $color1;
+            text-decoration: underline;
         }
         a:hover {
-            color: $color1;
+            color: black;
         }
     }
     

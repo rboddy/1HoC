@@ -26,11 +26,12 @@
 }
 
 .boxBottom a {
-  color: black;
+  color: #4b3b98;
+  text-decoration: underline;
 }
 
 .boxBottom a:hover {
-  color: #4b3b98;
+  color: black;
 }
 
 .socialList {
@@ -99,6 +100,7 @@
 
 .blogSection1, .blogSection2, .blogSection3, .blogSection4 {
   height: 200px;
+  text-align: center;
 }
 
 .blogSection1 {
@@ -115,6 +117,16 @@
 
 .blogSection4 {
   background-color: #8E8E8E;
+}
+
+.sectionTitle {
+  color: white;
+  font-size: 20px;
+}
+
+.iconCredit {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .contactContent {
@@ -142,6 +154,15 @@
   -ms-grid-rows: 1fr 1fr 1fr 3fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
   grid-gap: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4b3b98;
 }
 
 body {

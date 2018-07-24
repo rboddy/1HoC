@@ -21,3 +21,11 @@
     grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
     grid-gap: 10px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: $color1;
+}

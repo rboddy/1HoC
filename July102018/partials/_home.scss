@@ -55,3 +55,37 @@ $color3: #3B5998;
         }
     
     }
+
+    //iphone 6, 7, and 8 media queries
+    @media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) { 
+        .homeGrid {
+            display: block;
+        }
+        .boxLeft {
+            margin-top: 30px;
+            img {
+                width: 70%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .boxRight {
+            p {
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+        }
+        .socialList {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding-right: 40px;
+            li {
+                padding: 0px;
+            }
+        }
+    }

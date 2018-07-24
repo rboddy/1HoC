@@ -49,6 +49,35 @@
   cursor: pointer;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .homeGrid {
+    display: block;
+  }
+  .boxLeft {
+    margin-top: 30px;
+  }
+  .boxLeft img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .boxRight p {
+    text-align: center;
+  }
+  .boxRight h1 {
+    text-align: center;
+  }
+  .socialList {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 40px;
+  }
+  .socialList li {
+    padding: 0px;
+  }
+}
+
 .aboutHeader {
   margin-left: 10%;
 }
@@ -215,5 +244,16 @@ body h1 {
 
 .navBar .navList ul a:hover {
   color: black;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .logo {
+    visibility: hidden;
+    display: none;
+  }
+  .navList {
+    visibility: hidden;
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -66,4 +66,18 @@ body {
 
 }
 
+//iphone 6, 7, and 8 media queries
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .logo {
+        visibility: hidden;
+        display: none;
+    }
+    .navList {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 
